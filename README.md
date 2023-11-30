@@ -1,1 +1,2 @@
-readme for the simple shell project
+Simple Shell project 0x16.c
+This is a simple UNIX command interpreter based on bash and Sh.
