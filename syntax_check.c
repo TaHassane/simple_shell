@@ -134,7 +134,7 @@ void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 
 	mess2 = ": Syntax error: \"";
 	mess3 = "\" unexpected\n";
-	count = aux_itoa(datash->count);
+	count = aux_itoa(datash->counter);
 	l = _strlen(datash->av[0]) + _strlen(count);
 	l += _strlen(mess) + _strlen(mess2) + _strlen(mess3) + 2;
 
