@@ -200,7 +200,7 @@ void cd_to_home(data_shell *datash);
 int cd_shell(data_shell *datash);
 /*____________________________________________*/
 
-/*__command_parser.c__*/
+/*__c_parser.c__*/
 int (*get_builtin(char *cmd))(data_shell *datash);
 /*____________________________________________*/
 
